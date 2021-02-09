@@ -1,0 +1,28 @@
+.btn{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 43px;
+    border: 2px solid #000;
+    padding: 5px 12px;
+    
+    &__small{
+        @extend .btn;
+        width: 43px;
+
+    }
+    &__medium{
+            @extend .btn;
+            min-width: 140px;
+
+    }
+    &__large{
+        @extend .btn;
+        min-width: 140px;
+
+    }
+    &__fullWidth{
+        @extend .btn;
+        
+    }
+}
