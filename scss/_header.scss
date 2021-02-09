@@ -1,0 +1,121 @@
+.header {
+	color: #fff;
+    background:#000;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.inner-logo {
+    padding: 25px 20px 18px 0;
+}
+
+
+.main-nav,
+.user-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.user-menu {
+	margin-left: auto;
+}
+
+.main-nav-item,
+.user-menu-item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.nav-item-link,
+.user-menu-link {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    padding: 25px 20px;
+}
+
+.login-btn:after {
+	left: 50px;
+}
+
+.index-logo{
+    display: block;
+    width: 368px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.page{
+    display: flex;
+    color: #fff;
+   justify-content: space-between;
+   position: relative;
+   padding-left: 20px;
+   margin-bottom: 15px;
+}
+.text-block::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 20px auto 8px;
+    background: rgb(255, 255, 255);
+    transform: rotate(45deg);
+}
+.main-nav{
+    position: absolute;
+    transition: .3s;
+}
+.main-nav a:hover {
+    color:#fff;
+    border-bottom: 4px solid#fff;
+   } 
+.text-block {
+	position: relative;
+	margin-right: 40px;
+}
+.page ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-page ul li {
+    position: relative;
+    padding:25px 37px 10px 4px;
+    margin-bottom: 15px;
+    
+}
+.main-page{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}    
+
+.rows{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 320px;
+    text-align: center;
+}
+.text-block{
+    font-size:30px;
+    text-align: center;
+    line-height: 42px
+}
+.rows p{
+    font-size: 14px;
+    padding: 0;
+    margin: 0; 
+    line-height: 24px
+}
